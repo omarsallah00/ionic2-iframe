@@ -1,0 +1,120 @@
+page-home {
+
+}
+
+.icons-basic-page ion-icon {
+  font-size: 50px;
+}
+
+.icon-ios-primary {
+  color: #387ef5;
+}
+
+ion-icon {
+  display: inline-block;
+  font-size: 1.2em;
+}
+
+ion-icon {
+  display: inline-block;
+  font-family: "Ionicons";
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  text-rendering: auto;
+  text-transform: none;
+  speak: none;
+}
+
+.icons-basic-page ion-col {
+  -webkit-flex: 0 0 25%;
+  -ms-flex: 0 0 25%;
+  flex: 0 0 25%;
+  max-width: 25%;
+  text-align: center;
+  padding: 10px 5px;
+}
+
+.col {
+  position: relative;
+  padding: 5px;
+  width: 100%;
+  margin: 0;
+  min-height: 1px;
+  -webkit-flex-basis: 0;
+  -ms-flex-preferred-size: 0;
+  flex-basis: 0;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  max-width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+}
+
+.icons-basic-page ion-row {
+  height: 100%;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.row {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.scroll-content {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  display: block;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+  will-change: scroll-position;
+  contain: size style layout;
+}
+
+.ion-page > ion-content {
+  position: absolute;
+}
+
+.content-ios {
+  color: #000;
+  background-color: #fff;
+}
+
+[text-center] {
+  text-align: center !important;
+}
+
+ion-content {
+  position: relative;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  contain: layout size style;
+}
+
+.backg-content {
+  height: 100%;
+  background-color: #0054a4 !important;
+}
